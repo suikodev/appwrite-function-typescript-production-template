@@ -1,0 +1,22 @@
+{
+    "projectId": "YOUR_PROJECT_ID",
+    "projectName": "YOUR PROJECT NAME",
+    "functions": [
+        {
+            "$id": "FUNCTION_ID",
+            "name": "FUNCTION_NAME",
+            "runtime": "node-18.0",
+            "path": ".",
+            "entrypoint": "dist/index.js",
+            "ignore": [
+                "node_modules",
+                ".npm",
+                "src"
+            ],
+            "execute": [],
+            "events": [],
+            "schedule": "",
+            "timeout": 15
+        }
+    ]
+}
